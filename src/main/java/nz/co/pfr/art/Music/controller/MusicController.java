@@ -25,12 +25,11 @@ public class MusicController {
 
     }
 
-    @GetMapping(value = "/artists/mostProductiveSQL")
+     @GetMapping(value = "/artists/mostProductiveSQL")
     public ResponseEntity<List<String>> mostProductiveSQL(@RequestParam(name = "topn", defaultValue = "1") Integer topn) {
         log.info("getting top {} most productive artists", topn);
         return ResponseEntity.ok(artistService.mostProductiveSQL(topn));
 
     }
-
 
 }
