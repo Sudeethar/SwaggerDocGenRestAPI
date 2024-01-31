@@ -12,11 +12,13 @@ import java.util.UUID;
 public interface ArtistRepository extends JpaRepository<Artist, UUID> {
 
 
-    @Query(value = "select a.name, count(t) as trackcount from artist a " +
+   @Query(value = "select a.name, count(t) as trackcount from artist a " +
             "inner join cd c on a.artistid = c.artistid " +
             "inner join track t on t.cdid = c.cdid " +
             " group by a.name order by " +
-            " trackcount desc limit =: topn")
-    List<Tuple>  mostProductiveSQL (@Param("status") Integer topn);
+            " trackcount desc limit :topn",
+            nativeQuery = true
+    )
+    List<Tuple>  mostProductiveSQL (@Param("topn") Integer topn);
 
 }
