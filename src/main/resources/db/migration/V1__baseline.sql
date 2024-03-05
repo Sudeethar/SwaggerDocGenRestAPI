@@ -13,7 +13,7 @@ CREATE TABLE cd (
   cdid UUID PRIMARY KEY NOT NULL,
   artistid UUID NOT NULL,
   title text NOT NULL,
-  release_year datetime,
+  release_year date,
   FOREIGN KEY (artistid) REFERENCES artist(artistid) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
