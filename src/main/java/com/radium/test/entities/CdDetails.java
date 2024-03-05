@@ -1,7 +1,6 @@
-package nz.co.pfr.art.Music.entities;
+package com.radium.test.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import nz.co.pfr.art.Music.entities.Cd;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.rest.core.config.Projection;
 

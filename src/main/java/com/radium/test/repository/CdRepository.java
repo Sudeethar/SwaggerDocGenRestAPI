@@ -1,6 +1,6 @@
-package nz.co.pfr.art.Music.repository;
+package com.radium.test.repository;
 
-import nz.co.pfr.art.Music.entities.Cd;
+import com.radium.test.entities.Cd;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

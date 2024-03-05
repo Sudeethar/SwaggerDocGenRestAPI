@@ -1,8 +1,8 @@
-package nz.co.pfr.art.Music.service;
+package com.radium.test.service;
 
+import com.radium.test.entities.Artist;
 import jakarta.persistence.Tuple;
-import nz.co.pfr.art.Music.entities.Artist;
-import nz.co.pfr.art.Music.repository.ArtistRepository;
+import com.radium.test.repository.ArtistRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,5 @@
-package nz.co.pfr.art.Music.entities;
+package com.radium.test.entities;
 
-import nz.co.pfr.art.Music.entities.Track;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.rest.core.config.Projection;
 

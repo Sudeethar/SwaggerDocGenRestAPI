@@ -1,8 +1,8 @@
-package nz.co.pfr.art.Music;
+package com.radium.test;
 
-import nz.co.pfr.art.Music.entities.Artist;
-import nz.co.pfr.art.Music.entities.Cd;
-import nz.co.pfr.art.Music.entities.Track;
+import com.radium.test.entities.Artist;
+import com.radium.test.entities.Cd;
+import com.radium.test.entities.Track;
 
 import java.util.ArrayList;
 import java.util.List;

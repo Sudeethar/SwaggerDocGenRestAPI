@@ -1,4 +1,4 @@
-package nz.co.pfr.art.Music;
+package com.radium.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

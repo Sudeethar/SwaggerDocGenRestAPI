@@ -1,4 +1,4 @@
-package nz.co.pfr.art.Music.entities;
+package com.radium.test.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

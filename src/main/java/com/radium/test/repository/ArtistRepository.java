@@ -1,7 +1,7 @@
-package nz.co.pfr.art.Music.repository;
+package com.radium.test.repository;
 
+import com.radium.test.entities.Artist;
 import jakarta.persistence.Tuple;
-import nz.co.pfr.art.Music.entities.Artist;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

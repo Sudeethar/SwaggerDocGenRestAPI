@@ -1,6 +1,6 @@
-package nz.co.pfr.art.Music.controller;
+package com.radium.test.controller;
 
-import nz.co.pfr.art.Music.service.ArtistService;
+import com.radium.test.service.ArtistService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

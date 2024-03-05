@@ -1,7 +1,7 @@
-package nz.co.pfr.art.Music;
+package com.radium.test;
 
-import nz.co.pfr.art.Music.repository.ArtistRepository;
-import nz.co.pfr.art.Music.service.ArtistService;
+import com.radium.test.service.ArtistService;
+import com.radium.test.repository.ArtistRepository;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

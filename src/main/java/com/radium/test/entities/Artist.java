@@ -1,4 +1,4 @@
-package nz.co.pfr.art.Music.entities;
+package com.radium.test.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -18,8 +18,6 @@ public class Artist {
     private UUID id;
 
     private String name;
-
-
 
     @OneToMany(mappedBy = "artist")
     private List<Cd> cds;

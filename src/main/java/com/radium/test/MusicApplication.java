@@ -1,9 +1,9 @@
-package nz.co.pfr.art.Music;
+package com.radium.test;
 
 import com.github.javafaker.Faker;
-import nz.co.pfr.art.Music.repository.ArtistRepository;
-import nz.co.pfr.art.Music.repository.CdRepository;
-import nz.co.pfr.art.Music.repository.TrackRepository;
+import com.radium.test.repository.ArtistRepository;
+import com.radium.test.repository.CdRepository;
+import com.radium.test.repository.TrackRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
